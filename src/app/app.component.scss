@@ -7,3 +7,12 @@ main {
     display: flex;
     flex-direction: row;
 }
+
+.component-view {
+    background-color: #F0F0F0;
+    width: calc(100vw - 240px);
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
