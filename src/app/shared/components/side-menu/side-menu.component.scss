@@ -1,0 +1,26 @@
+:host {
+    background-color: #333333;
+    height: calc(100vh - 60px);
+    color: white;
+    width: 240px;
+    overflow: hidden;
+    padding: 16px 0;
+    box-sizing: border-box;
+    ul {
+        font-weight: bold;
+        margin: 0;
+        padding-left: 24px;
+        list-style: none;
+    }
+    li {
+        font-weight: normal;
+        padding-left: 16px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
