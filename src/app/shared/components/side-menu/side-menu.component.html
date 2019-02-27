@@ -1,3 +1,5 @@
-<ul><span>Form control</span>
-    <li><a href="">Checkbox</a></li>
+<ul *ngFor="let group of menuItems"><span>{{ group.title }}</span>
+    <li *ngFor="let component of group.children">
+        <a [routerLink]="['/' + component.path]">{{ component.path }}</a>
+    </li>
 </ul>
